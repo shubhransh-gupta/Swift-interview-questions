@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ED42BE62A9FAA19005E5224 /* Department+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED42BE22A9FAA19005E5224 /* Department+CoreDataClass.swift */; };
+		2ED42BE72A9FAA19005E5224 /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED42BE32A9FAA19005E5224 /* Department+CoreDataProperties.swift */; };
+		2ED42BE82A9FAA19005E5224 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED42BE42A9FAA19005E5224 /* Employee+CoreDataClass.swift */; };
+		2ED42BE92A9FAA19005E5224 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED42BE52A9FAA19005E5224 /* Employee+CoreDataProperties.swift */; };
 		2EE3F2832A8BD766004F3BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F2822A8BD766004F3BB2 /* AppDelegate.swift */; };
 		2EE3F2852A8BD766004F3BB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F2842A8BD766004F3BB2 /* SceneDelegate.swift */; };
 		2EE3F2872A8BD766004F3BB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F2862A8BD766004F3BB2 /* ViewController.swift */; };
@@ -14,13 +18,16 @@
 		2EE3F28D2A8BD766004F3BB2 /* CoreDBExOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F28B2A8BD766004F3BB2 /* CoreDBExOne.xcdatamodeld */; };
 		2EE3F28F2A8BD767004F3BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE3F28E2A8BD767004F3BB2 /* Assets.xcassets */; };
 		2EE3F2922A8BD767004F3BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE3F2902A8BD767004F3BB2 /* LaunchScreen.storyboard */; };
-		2EE3F29B2A8BD858004F3BB2 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F2992A8BD858004F3BB2 /* Employee+CoreDataClass.swift */; };
-		2EE3F29C2A8BD858004F3BB2 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F29A2A8BD858004F3BB2 /* Employee+CoreDataProperties.swift */; };
 		2EE3F29E2A8BD888004F3BB2 /* CoreDBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F29D2A8BD888004F3BB2 /* CoreDBHandler.swift */; };
 		2EE3F2A12A8BE26C004F3BB2 /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3F29F2A8BE26C004F3BB2 /* AddDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ED42BCD2A9FA759005E5224 /* CoreDBExOne 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDBExOne 2.xcdatamodel"; sourceTree = "<group>"; };
+		2ED42BE22A9FAA19005E5224 /* Department+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Department+CoreDataClass.swift"; path = "CoreDBExOne/Department+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2ED42BE32A9FAA19005E5224 /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Department+CoreDataProperties.swift"; path = "CoreDBExOne/Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2ED42BE42A9FAA19005E5224 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Employee+CoreDataClass.swift"; path = "CoreDBExOne/Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2ED42BE52A9FAA19005E5224 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Employee+CoreDataProperties.swift"; path = "CoreDBExOne/Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2EE3F27F2A8BD766004F3BB2 /* CoreDBExOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDBExOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE3F2822A8BD766004F3BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EE3F2842A8BD766004F3BB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +37,6 @@
 		2EE3F28E2A8BD767004F3BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EE3F2912A8BD767004F3BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EE3F2932A8BD767004F3BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EE3F2992A8BD858004F3BB2 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
-		2EE3F29A2A8BD858004F3BB2 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2EE3F29D2A8BD888004F3BB2 /* CoreDBHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDBHandler.swift; sourceTree = "<group>"; };
 		2EE3F29F2A8BE26C004F3BB2 /* AddDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,8 +55,10 @@
 		2EE3F2762A8BD766004F3BB2 = {
 			isa = PBXGroup;
 			children = (
-				2EE3F2992A8BD858004F3BB2 /* Employee+CoreDataClass.swift */,
-				2EE3F29A2A8BD858004F3BB2 /* Employee+CoreDataProperties.swift */,
+				2ED42BE22A9FAA19005E5224 /* Department+CoreDataClass.swift */,
+				2ED42BE32A9FAA19005E5224 /* Department+CoreDataProperties.swift */,
+				2ED42BE42A9FAA19005E5224 /* Employee+CoreDataClass.swift */,
+				2ED42BE52A9FAA19005E5224 /* Employee+CoreDataProperties.swift */,
 				2EE3F2812A8BD766004F3BB2 /* CoreDBExOne */,
 				2EE3F2802A8BD766004F3BB2 /* Products */,
 			);
@@ -154,13 +161,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE3F2A12A8BE26C004F3BB2 /* AddDataViewController.swift in Sources */,
+				2ED42BE82A9FAA19005E5224 /* Employee+CoreDataClass.swift in Sources */,
 				2EE3F2872A8BD766004F3BB2 /* ViewController.swift in Sources */,
-				2EE3F29C2A8BD858004F3BB2 /* Employee+CoreDataProperties.swift in Sources */,
 				2EE3F29E2A8BD888004F3BB2 /* CoreDBHandler.swift in Sources */,
 				2EE3F2832A8BD766004F3BB2 /* AppDelegate.swift in Sources */,
 				2EE3F28D2A8BD766004F3BB2 /* CoreDBExOne.xcdatamodeld in Sources */,
-				2EE3F29B2A8BD858004F3BB2 /* Employee+CoreDataClass.swift in Sources */,
+				2ED42BE72A9FAA19005E5224 /* Department+CoreDataProperties.swift in Sources */,
 				2EE3F2852A8BD766004F3BB2 /* SceneDelegate.swift in Sources */,
+				2ED42BE62A9FAA19005E5224 /* Department+CoreDataClass.swift in Sources */,
+				2ED42BE92A9FAA19005E5224 /* Employee+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,9 +392,10 @@
 		2EE3F28B2A8BD766004F3BB2 /* CoreDBExOne.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				2ED42BCD2A9FA759005E5224 /* CoreDBExOne 2.xcdatamodel */,
 				2EE3F28C2A8BD766004F3BB2 /* CoreDBExOne.xcdatamodel */,
 			);
-			currentVersion = 2EE3F28C2A8BD766004F3BB2 /* CoreDBExOne.xcdatamodel */;
+			currentVersion = 2ED42BCD2A9FA759005E5224 /* CoreDBExOne 2.xcdatamodel */;
 			path = CoreDBExOne.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

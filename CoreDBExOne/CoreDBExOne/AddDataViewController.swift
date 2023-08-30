@@ -30,7 +30,7 @@ class AddDataViewController: UITableViewController {
     func getValue() {
         let managedObject = CoreDBHandler.shared.fetchEmployee()!
         for i in managedObject {
-            self.home.append(i.home!)
+            self.home.append(i.address!)
             self.name.append(i.name!)
         }
         print(managedObject.count)

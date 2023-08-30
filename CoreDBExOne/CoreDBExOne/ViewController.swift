@@ -52,15 +52,17 @@ class ViewController: UIViewController {
     func setEmployees() {
         let name = ["Raja", "Rani", "Praja"]
         let home = ["dholakpur", "nainital", "chimau"]
+        let id = [UUID(),UUID(), UUID()]
         DispatchQueue.main.async {
             CoreDBHandler.shared.setEmployee(nameA: name, homeA: home)
+            CoreDBHandler.shared.setDepartment(nameA: name, id: id)
         }
     }
     
     func getValue() {
         let managedObject = CoreDBHandler.shared.fetchEmployee()!
         for i in managedObject {
-            self.home.append(i.value(forKey: "home") as! String)
+            self.home.append(i.value(forKey: "address") as! String)
             self.name.append(i.value(forKey: "name") as! String)
         }
         

@@ -69,12 +69,15 @@ class CoreDBHandler {
     }
     
     func setEmployee(nameA : [String], homeA : [String]) {
+        if let url = persistentContainer.persistentStoreCoordinator.persistentStores.first?.url {
+            print("SQLite File URL: \(url)")
+        }
         let entity = NSEntityDescription.entity(forEntityName: "Employee", in: context)!
         
         for i in 0..<Int(nameA.count) {
             let managedOb = NSManagedObject(entity: entity, insertInto: context)
             managedOb.setValue(nameA[i], forKey: "name")
-            managedOb.setValue(homeA[i], forKey: "home")
+            managedOb.setValue(homeA[i], forKey: "address")
         }
         
         do {
@@ -93,7 +96,7 @@ class CoreDBHandler {
             for updObj in manageObj {
                 let updObj1 = updObj as! NSManagedObject
                 updObj1.setValue(nameToSet, forKey: "name")
-                updObj1.setValue(nameToSet, forKey: "home")
+                updObj1.setValue(nameToSet, forKey: "address")
             }
             do {
                 try context.save()
@@ -101,6 +104,44 @@ class CoreDBHandler {
                 
             }
             
+        } catch let err as NSError {
+            print("some error caught" + "\(err)" + "\(err.userInfo)")
+        }
+    }
+    
+    func updateDataOfDept(nameToSet : String, nameToUpdate : String) {
+        let fetchReq = NSFetchRequest<NSFetchRequestResult>(entityName: Department.description())
+        fetchReq.predicate = NSPredicate(format: "name = %@", nameToUpdate)
+        
+        do {
+            let manageObj = try context.fetch(fetchReq)
+            for updObj in manageObj {
+                let updObj1 = updObj as! NSManagedObject
+                updObj1.setValue(nameToSet, forKey: "deptname")
+                updObj1.setValue(nameToSet, forKey: "id")
+            }
+            do {
+                try context.save()
+            } catch {
+                
+            }
+            
+        } catch let err as NSError {
+            print("some error caught" + "\(err)" + "\(err.userInfo)")
+        }
+    }
+    
+    func setDepartment(nameA : [String], id : [UUID]) {
+        let entity = NSEntityDescription.entity(forEntityName: Department.description(), in: context)!
+        
+        for i in 0..<Int(nameA.count) {
+            let managedOb = NSManagedObject(entity: entity, insertInto: context)
+            managedOb.setValue(nameA[i], forKey: "deptname")
+            managedOb.setValue(id[i], forKey: "id")
+        }
+        
+        do {
+            try context.save()
         } catch let err as NSError {
             print("some error caught" + "\(err)" + "\(err.userInfo)")
         }
