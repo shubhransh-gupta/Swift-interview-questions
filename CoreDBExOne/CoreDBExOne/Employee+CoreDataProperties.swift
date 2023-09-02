@@ -2,7 +2,7 @@
 //  Employee+CoreDataProperties.swift
 //  CoreDBExOne
 //
-//  Created by Shubhransh Gupta on 15/08/23.
+//  Created by Shubhransh Gupta on 30/08/23.
 //
 //
 
@@ -16,8 +16,9 @@ extension Employee {
         return NSFetchRequest<Employee>(entityName: "Employee")
     }
 
+    @NSManaged public var address: String?
     @NSManaged public var name: String?
-    @NSManaged public var home: String?
+    @NSManaged public var toDepartment: Department?
 
 }
 
