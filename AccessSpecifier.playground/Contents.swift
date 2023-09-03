@@ -39,6 +39,7 @@ class Person : Employee {
         return (self.fname!)
     }
     
+    //throws error
 //    override func getLname() -> String? {
 //        return (self.lname!)
 //    }
