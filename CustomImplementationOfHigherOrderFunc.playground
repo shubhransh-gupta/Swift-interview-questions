@@ -1,0 +1,79 @@
+//Custom Implementation Of HigherOrder Function in Swift
+import UIKit
+
+//custom filter
+func customFilter<T>(_ source: [T], _ isIncluded: (T) -> Bool ) -> [T] {
+    var result: [T] = []
+
+    for element in source {
+        if isIncluded(element) {
+            result.append(element)
+        }
+    }
+
+    return result
+}
+
+func isEven(_ number: Int) -> Bool {
+    return number % 2 == 0
+}
+
+//// Usage example:
+let numbers = [1, 2, 3, 4, 5, 6]
+//let evenNumbers = customFilter(numbers) { $0 % 2 == 0 }
+let evenNumbers = customFilter(numbers, isEven)
+print(evenNumbers) // Output: [2, 4, 6]
+
+extension Sequence {
+    func customFilterA<T>(_ transform: (Element) -> Bool) -> [T] {
+          var result = [T]()
+          forEach{
+              if transform($0), let castedElement = $0 as? T {
+                  result.append(castedElement)
+              }
+          }
+          return result
+      }
+}
+var names = ["Abhishek","Rahul","Sonu","Shubham"]
+var filteredNames:[String] = names.customFilterA{ $0.count > 5}
+print(filteredNames)
+
+
+//custom map
+
+extension Sequence {
+    func customMap<T>(_ exp : (Element) -> T) -> [T] {
+        var res : [T] = []
+
+        for element in self {
+            let ex = exp(element)
+            res.append(ex)
+        }
+
+        return res
+    }
+}
+
+let number = [1, 2, 3, 4, 5, 6]
+let evenNumber = number.customMap { $0 * $0 }
+print(evenNumber)
+
+
+//custom FlatMap
+extension Sequence {
+    func customFlatMap<T>(_ transform: (Element) -> [T]) -> [T] {
+        var result: [T] = []
+        for element in self {
+            let transformedElements = transform(element)
+            result.append(contentsOf: transformedElements)
+        }
+        return result
+    }
+}
+
+let words = ["Hello", "World"]
+let letters = words.customFlatMap { Array($0) }
+print(letters)
+
+
