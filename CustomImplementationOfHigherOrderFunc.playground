@@ -76,4 +76,21 @@ let words = ["Hello", "World"]
 let letters = words.customFlatMap { Array($0) }
 print(letters)
 
+extension Sequence {
+    func customReduce<Result>(_ initialRes : Result, _ nextStepRes : (Result,Element) -> Result) -> Result {
+        
+        var res = initialRes
+        
+        for ele in self {
+            res = nextStepRes(res, ele)
+        }
+        
+        return res
+    }
+}
 
+let a = [1,2,3,4,5].customReduce(0, { $0 + $1 })
+print(a)
+
+let b = [1,2,3,4,5].customReduce(1, +)
+print(b)
