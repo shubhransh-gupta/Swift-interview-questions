@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2E3546AD2D37EE3100132A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E35468E2D37EE2E00132A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3546952D37EE2E00132A65;
+			remoteInfo = HopeAdoodledo;
+		};
+		2E3546B72D37EE3100132A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E35468E2D37EE2E00132A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3546952D37EE2E00132A65;
+			remoteInfo = HopeAdoodledo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E3546962D37EE2E00132A65 /* HopeAdoodledo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeAdoodledo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3546AC2D37EE3100132A65 /* HopeAdoodledoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeAdoodledoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3546B62D37EE3100132A65 /* HopeAdoodledoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeAdoodledoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2E3546BE2D37EE3100132A65 /* Exceptions for "HopeAdoodledo" folder in "HopeAdoodledo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2E3546952D37EE2E00132A65 /* HopeAdoodledo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2E3546982D37EE2E00132A65 /* HopeAdoodledo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2E3546BE2D37EE3100132A65 /* Exceptions for "HopeAdoodledo" folder in "HopeAdoodledo" target */,
+			);
+			path = HopeAdoodledo;
+			sourceTree = "<group>";
+		};
+		2E3546AF2D37EE3100132A65 /* HopeAdoodledoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HopeAdoodledoTests;
+			sourceTree = "<group>";
+		};
+		2E3546B92D37EE3100132A65 /* HopeAdoodledoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HopeAdoodledoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3546932D37EE2E00132A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3546A92D37EE3100132A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3546B32D37EE3100132A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E35468D2D37EE2E00132A65 = {
+			isa = PBXGroup;
+			children = (
+				2E3546982D37EE2E00132A65 /* HopeAdoodledo */,
+				2E3546AF2D37EE3100132A65 /* HopeAdoodledoTests */,
+				2E3546B92D37EE3100132A65 /* HopeAdoodledoUITests */,
+				2E3546972D37EE2E00132A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3546972D37EE2E00132A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3546962D37EE2E00132A65 /* HopeAdoodledo.app */,
+				2E3546AC2D37EE3100132A65 /* HopeAdoodledoTests.xctest */,
+				2E3546B62D37EE3100132A65 /* HopeAdoodledoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3546952D37EE2E00132A65 /* HopeAdoodledo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3546BF2D37EE3100132A65 /* Build configuration list for PBXNativeTarget "HopeAdoodledo" */;
+			buildPhases = (
+				2E3546922D37EE2E00132A65 /* Sources */,
+				2E3546932D37EE2E00132A65 /* Frameworks */,
+				2E3546942D37EE2E00132A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2E3546982D37EE2E00132A65 /* HopeAdoodledo */,
+			);
+			name = HopeAdoodledo;
+			packageProductDependencies = (
+			);
+			productName = HopeAdoodledo;
+			productReference = 2E3546962D37EE2E00132A65 /* HopeAdoodledo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E3546AB2D37EE3100132A65 /* HopeAdoodledoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3546C42D37EE3100132A65 /* Build configuration list for PBXNativeTarget "HopeAdoodledoTests" */;
+			buildPhases = (
+				2E3546A82D37EE3100132A65 /* Sources */,
+				2E3546A92D37EE3100132A65 /* Frameworks */,
+				2E3546AA2D37EE3100132A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E3546AE2D37EE3100132A65 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2E3546AF2D37EE3100132A65 /* HopeAdoodledoTests */,
+			);
+			name = HopeAdoodledoTests;
+			packageProductDependencies = (
+			);
+			productName = HopeAdoodledoTests;
+			productReference = 2E3546AC2D37EE3100132A65 /* HopeAdoodledoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E3546B52D37EE3100132A65 /* HopeAdoodledoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3546C72D37EE3100132A65 /* Build configuration list for PBXNativeTarget "HopeAdoodledoUITests" */;
+			buildPhases = (
+				2E3546B22D37EE3100132A65 /* Sources */,
+				2E3546B32D37EE3100132A65 /* Frameworks */,
+				2E3546B42D37EE3100132A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E3546B82D37EE3100132A65 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2E3546B92D37EE3100132A65 /* HopeAdoodledoUITests */,
+			);
+			name = HopeAdoodledoUITests;
+			packageProductDependencies = (
+			);
+			productName = HopeAdoodledoUITests;
+			productReference = 2E3546B62D37EE3100132A65 /* HopeAdoodledoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E35468E2D37EE2E00132A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2E3546952D37EE2E00132A65 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2E3546AB2D37EE3100132A65 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2E3546952D37EE2E00132A65;
+					};
+					2E3546B52D37EE3100132A65 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2E3546952D37EE2E00132A65;
+					};
+				};
+			};
+			buildConfigurationList = 2E3546912D37EE2E00132A65 /* Build configuration list for PBXProject "HopeAdoodledo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E35468D2D37EE2E00132A65;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2E3546972D37EE2E00132A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3546952D37EE2E00132A65 /* HopeAdoodledo */,
+				2E3546AB2D37EE3100132A65 /* HopeAdoodledoTests */,
+				2E3546B52D37EE3100132A65 /* HopeAdoodledoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3546942D37EE2E00132A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3546AA2D37EE3100132A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3546B42D37EE3100132A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3546922D37EE2E00132A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3546A82D37EE3100132A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3546B22D37EE3100132A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E3546AE2D37EE3100132A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E3546952D37EE2E00132A65 /* HopeAdoodledo */;
+			targetProxy = 2E3546AD2D37EE3100132A65 /* PBXContainerItemProxy */;
+		};
+		2E3546B82D37EE3100132A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E3546952D37EE2E00132A65 /* HopeAdoodledo */;
+			targetProxy = 2E3546B72D37EE3100132A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E3546C02D37EE3100132A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HopeAdoodledo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HopeAdoodledo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3546C12D37EE3100132A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HopeAdoodledo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HopeAdoodledo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E3546C22D37EE3100132A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E3546C32D37EE3100132A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3546C52D37EE3100132A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HopeAdoodledoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopeAdoodledo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HopeAdoodledo";
+			};
+			name = Debug;
+		};
+		2E3546C62D37EE3100132A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HopeAdoodledoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopeAdoodledo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HopeAdoodledo";
+			};
+			name = Release;
+		};
+		2E3546C82D37EE3100132A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HopeAdoodledoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopeAdoodledo;
+			};
+			name = Debug;
+		};
+		2E3546C92D37EE3100132A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HopeAdoodledoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopeAdoodledo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3546912D37EE2E00132A65 /* Build configuration list for PBXProject "HopeAdoodledo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3546C22D37EE3100132A65 /* Debug */,
+				2E3546C32D37EE3100132A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3546BF2D37EE3100132A65 /* Build configuration list for PBXNativeTarget "HopeAdoodledo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3546C02D37EE3100132A65 /* Debug */,
+				2E3546C12D37EE3100132A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3546C42D37EE3100132A65 /* Build configuration list for PBXNativeTarget "HopeAdoodledoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3546C52D37EE3100132A65 /* Debug */,
+				2E3546C62D37EE3100132A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3546C72D37EE3100132A65 /* Build configuration list for PBXNativeTarget "HopeAdoodledoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3546C82D37EE3100132A65 /* Debug */,
+				2E3546C92D37EE3100132A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E35468E2D37EE2E00132A65 /* Project object */;
+}

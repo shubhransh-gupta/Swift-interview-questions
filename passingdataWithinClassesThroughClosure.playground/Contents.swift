@@ -23,22 +23,23 @@ class ReceiverOne {
         }
     }
 }
+let r1 = ReceiverOne()
+r1.didRecieveData()
+//class ReceiverTwo {
+//    
+//    func didRecieveData() {
+//        send.closure = { (res) in
+//            print(res)
+//            print("2nd")
+//        }
+//    }
+//}
+
+
+//let r2 = ReceiverTwo()
 //let r1 = ReceiverOne()
 //r1.didRecieveData()
-class ReceiverTwo {
-    
-    func didRecieveData() {
-        send.closure = { (res) in
-            print(res)
-            print("2nd")
-        }
-    }
-}
-
-
-let r2 = ReceiverTwo()
-
-r2.didRecieveData()
+//r2.didRecieveData()
 send.sendDataToListener(data: "2.000")
 
 send.sendDataToListener(data: "Shubh")

@@ -16,12 +16,13 @@ func doSomething() {
 // Run on the main thread
 
 // Create and run a concurrent thread
-let concurrentQueue = DispatchQueue(label: "com.example.concurrentQueue", attributes: .concurrent)
+let concurrentQueue = DispatchQueue(label: "com.example.concurrentQueue")//, attributes: .concurrent)
 concurrentQueue.sync {
     doSomething()
 }
-print("123")
-for i in 0..<10 {
+concurrentQueue.sync {
     print("123")
+    for i in 0..<10 {
+        print("123")
+    }
 }
-
